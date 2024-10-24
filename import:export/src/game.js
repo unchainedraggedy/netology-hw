@@ -1,4 +1,4 @@
-import './domain.js'
+import Character from './domain.js'
 
 export default class Game {
     start(){
@@ -6,7 +6,7 @@ export default class Game {
     }
 }
 
-class GameSavingData {
+export class GameSavingData {
 
 }
 
